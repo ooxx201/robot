@@ -1,1 +1,1 @@
-database_password = 'password'
+database_password = 'Soa2019$'

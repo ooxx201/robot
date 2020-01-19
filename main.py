@@ -7,7 +7,7 @@ from utils import session
 
 
 def dump_website_data(home_dir):
-    for file in Path(home_dir).rglob('ma-us-cash-*.xlsx'):
+    for file in Path(home_dir).rglob('*.xlsx'):
         df = pd.read_excel(file)
         df.apply(OrderWebsite.new_from_series, axis=1)
 
@@ -35,7 +35,7 @@ def export_table():
         4: 'Agent.amount',
         5: 'Agent.source',
     })
-    df.to_excel('summery.xlsx')
+    df.to_excel(export_dir)
     print(df)
 
 

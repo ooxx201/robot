@@ -1,0 +1,39 @@
+POC demo instruction
+
+------Purpose:How to generate the consoliated file?------
+Instruction:(2 steps)
+
+activate sunny
+python C:\Users\sanis\Documents\Sunny\robot\main.py
+
+-------Consolidate excel files ---Source software---------
+1)mysql database
+mysql server
+workbench
+shell
+mysql python api
+
+
+mysql passwork: Soa2019$
+
+
+2)develpment environment
+pycharm
+
+
+3)main development language: python 3.8
+
+
+4)sync code:version control
+name:git
+https://git-scm.com/download/win
+
+
+5) working on exe (to be develope)
+Exe pywin32
+
+
+
+
+ 
+
